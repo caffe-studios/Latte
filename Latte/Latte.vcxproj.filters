@@ -21,15 +21,21 @@
     <ClInclude Include="src\Latte\Application.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Latte.h">
+    <ClInclude Include="src\Latte\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Latte\EntryPoint.h">
+    <ClInclude Include="src\Latte\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Latte.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Latte\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Latte\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

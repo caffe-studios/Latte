@@ -1,0 +1,3 @@
+[submodule "Latte/vendor/spdlog"]
+	path = Latte/vendor/spdlog
+	url = https://github.com/gabime/spdlog
