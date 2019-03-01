@@ -1,6 +1,0 @@
-﻿  SandboxApp.cpp
-c:\users\nicko\latte\latte\src\latte\log.h(19): warning C4251: 'Latte::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Latte::Log'
-  c:\users\nicko\latte\latte\vendor\spdlog\include\spdlog\logger.h(158): note: see declaration of 'std::shared_ptr<spdlog::logger>'
-c:\users\nicko\latte\latte\src\latte\log.h(20): warning C4251: 'Latte::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Latte::Log'
-  c:\users\nicko\latte\latte\vendor\spdlog\include\spdlog\logger.h(158): note: see declaration of 'std::shared_ptr<spdlog::logger>'
-  Sandbox.vcxproj -> C:\Users\nicko\Latte\bin\Debug-x64\Sandbox\Sandbox.exe
