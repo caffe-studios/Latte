@@ -4,6 +4,9 @@
     <Filter Include="Latte">
       <UniqueIdentifier>{FF73950D-6B88-BDBE-340A-611EA0DDB9EF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Latte\Events">
+      <UniqueIdentifier>{d657ce41-e871-4679-a413-4c669313117b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Latte.h" />
@@ -18,6 +21,18 @@
     </ClInclude>
     <ClInclude Include="src\Latte\Log.h">
       <Filter>Latte</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationEvent.h">
+      <Filter>Latte\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Latte\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEvent.h">
+      <Filter>Latte\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>Latte\Events</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
