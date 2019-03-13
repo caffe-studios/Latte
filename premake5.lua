@@ -19,6 +19,9 @@ project "Latte"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "ltpch.h"
+	pchsource "Latte/src/ltpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

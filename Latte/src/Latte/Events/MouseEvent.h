@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Latte {
 
 	class LATTE_API MouseMovedEvent : public Event

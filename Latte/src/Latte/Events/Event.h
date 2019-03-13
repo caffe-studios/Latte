@@ -1,9 +1,6 @@
 #pragma once
 
-#include "./src/Latte/Core.h"
-
-#include <string>
-#include <functional>
+#include "Latte/Core.h"
 
 namespace Latte {
 
