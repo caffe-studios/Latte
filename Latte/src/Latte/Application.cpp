@@ -1,7 +1,8 @@
 #include "ltpch.h"
 #include "Application.h"
+
 #include "Latte/Events/ApplicationEvent.h"
-#include "./Log.h"
+#include "Latte/Log.h"
 
 namespace Latte {
 	Application::Application()
