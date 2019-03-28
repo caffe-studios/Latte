@@ -1,5 +1,5 @@
-// our lord and savior
-https://jameshfisher.com/2017/10/14/opengl-macos-hello-world-glfw/
+- Build: `make`
+- Clean: `make clean`
+- Build, but remove objects leaving the build dir: `make dist`
 
-// Current command to compile
-clang -lglfw -framework OpenGL main.cpp
+You can then use `python -m SimpleHTTPServer 8080` and open your browser to [http://localhost:8080/build/](http://localhost:8080/build/).
