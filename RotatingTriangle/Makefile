@@ -18,5 +18,5 @@ dist: build
 
 # Cleans up object files and build directory
 clean:
-		rm -rf build
+		rm -rf build/index.html build/index.js build/index.wasm
 		rm -f $(OBJS)
