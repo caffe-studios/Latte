@@ -1,2 +1,11 @@
+# Editor
 .vscode
+
+# C/CPP Specfic
 a.out
+
+# Rust Specific
+node_modules
+pkg
+Cargo.lock
+target
