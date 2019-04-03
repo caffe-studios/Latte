@@ -1,4 +1,4 @@
-This project has multiple folders that have examples of how Wasm works with Emscripten in a couple of different languages (C++, Rust, Go). You'll need to have [emscripten](https://github.com/emscripten-core/emscripten) installed to run these examples.
+This project has multiple folders that have examples of how Wasm works with Emscripten in a couple of different languages (C/C++, Rust). You'll need to have [emscripten](https://github.com/emscripten-core/emscripten) installed to run these examples.
 
 ## RotatingTriangle
 
