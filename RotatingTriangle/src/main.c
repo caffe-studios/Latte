@@ -49,34 +49,6 @@ static void output_error(int error, const char *msg)
   fprintf(stderr, "Error: %s\n", msg);
 }
 
-static void handleKeypress(GLFWwindow *window, int key, int scancode, int action, int mode)
-{
-  if (action == GLFW_PRESS)
-  {
-    switch (key)
-    {
-    case GLFW_KEY_UP:
-      printf("Up\n");
-      transY += 0.1f;
-      break;
-    case GLFW_KEY_DOWN:
-      printf("Down\n");
-      transY -= 0.1f;
-      break;
-    case GLFW_KEY_RIGHT:
-      printf("Right\n");
-      transX += 0.1f;
-      break;
-    case GLFW_KEY_LEFT:
-      printf("Left\n");
-      transX -= 0.1f;
-      break;
-    case GLFW_KEY_ESCAPE:
-      exit(0);
-    }
-  }
-}
-
 static void generate_frame()
 {
   float ratio;
@@ -160,7 +132,6 @@ int main()
   }
 
   glfwMakeContextCurrent(window);
-  glfwSetKeyCallback(window, handleKeypress);
 
   glGenBuffers(1, &vertex_buffer);
   glBindBuffer(GL_ARRAY_BUFFER, vertex_buffer);
