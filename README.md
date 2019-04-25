@@ -1,5 +1,17 @@
 This project has multiple folders that have examples of how Wasm works with Emscripten in a couple of different languages (C/C++, Rust). You'll need to have [emscripten](https://github.com/emscripten-core/emscripten) installed to run these examples.
 
+## Some Context
+
+Early 2019 I set out to explore WebAssembly because I was generally looking for ways to improve performance in web applications. This repo is all of my findings and examples.
+
+## Important Emscripten Build Flags for WASM
+
+* `-s WASM=1` - Export to WASM
+* `-s SIDE_MODULE=1` - Only generate WASM code, no glue code
+* `-s BINARYEN_ASYNC_COMPILATION` - Compile WASM into async code, favorable in JS
+
+# Examples
+
 ## RotatingTriangle
 
 Built using C & GLFW
